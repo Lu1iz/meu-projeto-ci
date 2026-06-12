@@ -1,5 +1,4 @@
 import pytest
-import os
 from app.main import somar, subtrair, obter_api_key
 
 
@@ -22,3 +21,4 @@ def test_obter_api_key_ausente(monkeypatch):
     monkeypatch.delenv("MINHA_API_SECRET", raising=False)
     with pytest.raises(ValueError):
         obter_api_key()
+        

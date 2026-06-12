@@ -22,3 +22,4 @@ if __name__ == "__main__":
     print("Soma:", somar(3, 5))
     print("Subtração:", subtrair(10, 4))
     print("API Key carregada:", obter_api_key())
+    

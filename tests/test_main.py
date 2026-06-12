@@ -21,4 +21,3 @@ def test_obter_api_key_ausente(monkeypatch):
     monkeypatch.delenv("MINHA_API_SECRET", raising=False)
     with pytest.raises(ValueError):
         obter_api_key()
-        

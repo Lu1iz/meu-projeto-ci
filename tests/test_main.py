@@ -1,5 +1,4 @@
 import pytest
-import os
 from app.main import somar, subtrair, obter_api_key
 
 
